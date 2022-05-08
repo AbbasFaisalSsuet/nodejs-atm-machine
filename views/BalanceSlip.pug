@@ -1,0 +1,16 @@
+html    
+    body(style="background-color:black")
+        div(style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);padding:10px;margin:10px;border:1px solid white")
+            h1(style="text-align:Center;color:white;padding:10px") Transaction Slip
+            hr
+            h6(style="text-align:Center;color:white") Date:   #{Date(today)} 
+            hr
+            if(amount)           
+                h4(style="text-align:Center;color:white;padding:8px") Transaction Amount:   #{amount}
+                h4(style="text-align:Center;color:white;padding:8px") Remaining Amount:     #{RemainingBalance} 
+                hr
+            else
+                h4(style="text-align:Center;color:white;padding:8px") Account Code:         #{Accountcode}
+                h4(style="text-align:Center;color:white;padding:8px") Transaction Amount:   #{Amount}
+                h4(style="text-align:Center;color:white;padding:8px") Remaining Amount:     #{RemainingBalance} 
+                hr

@@ -1,0 +1,8 @@
+html       
+    body(style="background-color:#000000")
+        include ./Header.pug
+        div(style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);text-align: center;")
+            h1(style="text-align:Center;color:white;padding:20px") Cash WithDrawl 
+            form(mehtod="GET",action="/balanceslip/1")
+                input(type="text", name="amount",placeholder="Please Enter Amount",style="width:90%;display:inline-block;height:35px;border-radius:10px;text-align:center")
+                button(type="submit",style="color:white;border-radius:10px;width:50%;text-decoration:none;border:1px solid white;display:inline-block;height:20px;margin-top:10px;background-color:transparent;") Ok      

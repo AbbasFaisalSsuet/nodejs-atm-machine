@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.list1 {
+  background-color: #000000;
+  width: 80%;
+  height: 5%;
+  padding: 10px;
+  padding-left: 18% !important;
+  margin-top: 20px;
+}
+.list1 li {
+  display: inline;
+  padding-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.list1 li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list1 li a:hover {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
