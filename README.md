@@ -4,6 +4,17 @@ A new Web Based Atm Machine developed in #NodeJs.
 
 The Idea is just to use the ATM functionality on Web. In this one Admin and 2 User are created with the Authentication and the Users is adding through the JSON Object.
 
+You Can Login With These 3 Accounts details Mentioned Below:
+
+1 --> Username: admin
+      password: admin
+      
+2 --> Username: Shahzaib
+      password: 12345
+      
+3 --> Username: Faisal
+      password: 54321
+
 
 The Main Login Page:
 
