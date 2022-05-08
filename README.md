@@ -1,4 +1,4 @@
-# nodejs-atm-machine
+# Nodejs-atm-machine
 
 A new Web Based Atm Machine developed in #NodeJs.
 
